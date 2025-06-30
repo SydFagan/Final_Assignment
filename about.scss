@@ -1,0 +1,45 @@
+.hero-about {
+  max-width: 1000px;
+  height: 378px;
+  margin: 180px auto 0 auto;
+  background-image:linear-gradient(rgba(233,131,13,.5)), url(../images/abouthero.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  font-family: arial;
+
+  
+}
+
+.about-title {
+  position: relative;
+  top: 150px; 
+  left: calc(50% - 500px);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  z-index: 10;
+  display: inline-block;
+  transition: all 0.3s ease;
+ font-family: arial;
+
+}
+
+.about-section {
+    width: 964px;
+   margin: auto;
+   padding-bottom: 200px;
+   
+    
+    .text {
+        padding-top: 50px;
+text-align: center;
+   margin-top: 50px;
+    font-size: 16px;
+     font-family: arial;
+    }
+
+}

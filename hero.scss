@@ -1,0 +1,106 @@
+.hero {
+ width: 1920px;
+margin-top: 100px;
+background-image:linear-gradient(rgba(233,131,13,.5)), url(../images/abstracthero.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat:no-repeat;
+background-size: cover;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+
+  
+
+   
+
+   .centered-content
+{
+     font-family: arial;
+    color: white;
+    width: 300px;
+   
+    text-align: center;
+    .center-text {
+         font-family: arial;
+        font-size:32px ;
+    }
+
+
+}
+
+}
+.spanstuff {
+padding-top: 80px;
+  width: 980px;
+  margin: 0 auto;
+ 
+  
+span {
+     font-family: arial;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: solid 2px black;
+    padding-bottom: 10px;
+    display: inline-block;
+   
+  }
+
+.month {
+     font-size: 25px;
+    font-family: arial;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.hero1 {
+    background-image:linear-gradient(rgba(233,131,13,.5)), url(../images/age_of_art_event.jpg);
+     max-width: 1000px;
+  height: 378px;
+ padding-top: 40px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+}
+ 
+.hero2 {
+    background-image:linear-gradient(rgba(0,135,158,.5)), url(../images/artshow_event.jpg);
+     max-width: 1000px;
+  height: 378px;
+ padding-top: 40px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+}
+
+.hero3 {
+    background-image:linear-gradient(rgba(233,131,13,.5)), url( ../images/color_theory_event.jpg    );
+     max-width: 1000px;
+  height: 378px;
+ padding-top: 40px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+}
+
+
+.hero4 {
+    background-image:linear-gradient(rgba(0,135,158,.5)), url(../images/express_yourself_event.jpg);
+     max-width: 1000px;
+  height: 378px;
+ padding-top: 40px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 40px;
+}
+
+
+}
+
+@media only all and (max-width: 980px) {
+    .hero {
+         padding: 0 30px;
+    }
+}

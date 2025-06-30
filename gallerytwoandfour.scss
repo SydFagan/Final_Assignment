@@ -1,0 +1,41 @@
+
+.gallery-layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 100px auto;
+  gap: 60px;
+  padding: 0 20px;
+
+  .image-section {
+    flex: 1;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+
+  .text-section {
+    flex: 1;
+     font-family: arial;
+
+    h1 {
+      font-size: 26px;
+      
+      margin-bottom: 20px;
+    }
+
+    p {
+      line-height: 1.7;
+      margin-bottom: 20px;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+
+}
+
+ 
